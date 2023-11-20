@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "@arco-design/web-vue": "^2.52.1",
-    "arco-design-nuxt-module": "^0.0.16"
+    "arco-design-nuxt-module": "^0.0.18"
   }
 }
