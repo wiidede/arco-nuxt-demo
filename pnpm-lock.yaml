@@ -25,6 +25,9 @@ devDependencies:
   nuxt:
     specifier: ^3.11.1
     version: 3.11.1(@unocss/reset@0.58.6)(eslint@8.57.0)(floating-vue@5.2.2)(typescript@5.4.3)(unocss@0.58.6)(vite@4.5.0)(vue-tsc@2.0.7)
+  pnpm:
+    specifier: ^8.15.5
+    version: 8.15.5
   typescript:
     specifier: ^5.4.3
     version: 5.4.3
@@ -8111,6 +8114,12 @@ packages:
   /pluralize@8.0.0:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
+    dev: true
+
+  /pnpm@8.15.5:
+    resolution: {integrity: sha512-sFGjLH5pWDO4SSbTspuMylclS1ifBknYmcbp0O22cLkex+KkNFm65zdZu1zmGcMmbxFr+THOItHvF1mn5Fqpbw==}
+    engines: {node: '>=16.14'}
+    hasBin: true
     dev: true
 
   /postcss-calc@9.0.1(postcss@8.4.38):
