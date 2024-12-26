@@ -2,7 +2,7 @@
   "name": "nuxt-app",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@8.15.5",
+  "packageManager": "pnpm@9.15.1",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -13,18 +13,18 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "@arco-design/web-vue": "^2.55.0",
-    "arco-design-nuxt-module": "^0.1.0"
+    "@arco-design/web-vue": "latest",
+    "arco-design-nuxt-module": "latest"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.9.0",
+    "@antfu/eslint-config": "^3.12.1",
     "@nuxt/devtools": "latest",
-    "eslint": "^8.57.0",
-    "nuxt": "^3.11.1",
-    "pnpm": "^8.15.5",
-    "typescript": "^5.4.3",
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0",
-    "vue-tsc": "^2.0.7"
+    "eslint": "^9.17.0",
+    "nuxt": "^3.15.0",
+    "pnpm": "^9.15.1",
+    "typescript": "^5.7.2",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "vue-tsc": "^2.2.0"
   }
 }
